@@ -38,6 +38,7 @@ val patchLevelLong by lazy {
 // FIXME
 val osVersion by lazy {
     when (Build.VERSION.SDK_INT) {
+        Build.VERSION_CODES.VANILLA_ICE_CREAM -> 150000
         Build.VERSION_CODES.UPSIDE_DOWN_CAKE -> 140000
         Build.VERSION_CODES.TIRAMISU -> 130000
         Build.VERSION_CODES.S_V2 -> 120100
